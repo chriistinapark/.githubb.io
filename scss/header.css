@@ -1,0 +1,26 @@
+header {
+  border-bottom: 1px solid #CACAD6;
+  background-color: #F6F4F5;
+}
+header div {
+  max-width: 1200px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+header div nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div nav ul {
+  display: flex;
+}
+header div nav ul li {
+  margin-right: 20px;
+}
+header div nav ul :last-child {
+  margin-right: 0;
+}
+header div nav .logo {
+  margin-left: -100px;
+}/*# sourceMappingURL=header.css.map */

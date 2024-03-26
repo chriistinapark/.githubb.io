@@ -81,7 +81,7 @@ body {
 }
 
 .main {
-  background-image: url("images/main bg.png");
+  background-image: url("../images/main bg.png");
   background-size: cover;
   background-color: #E6E4E5;
 }
@@ -374,7 +374,7 @@ body {
   margin-top: 100px;
 }
 .banner .banner__content {
-  background-image: url("images/6 bg.png");
+  background-image: url("../images/6 bg.png");
   background-color: #FBC2F5;
   background-size: cover;
   height: 500px;

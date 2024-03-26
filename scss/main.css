@@ -83,6 +83,7 @@ body {
 .main {
   background-image: url("/images/main bg.png");
   background-size: cover;
+  background-color: #E6E4E5;
 }
 .main .content {
   max-width: 1200px;
@@ -318,6 +319,7 @@ body {
 .oculus .oculus__bg {
   font-weight: 700;
   font-size: 400px;
+  max-width: 1687px;
   background: linear-gradient(rgb(188, 16, 216) 0%, rgba(80, 0, 250, 0.93) 100%);
   -webkit-background-clip: text;
           background-clip: text;
@@ -370,6 +372,7 @@ body {
 }
 .banner .banner__content {
   background-image: url("/images/6 bg.png");
+  background-color: #FBC2F5;
   background-size: cover;
   height: 500px;
   text-align: center;

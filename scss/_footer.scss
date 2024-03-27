@@ -1,0 +1,59 @@
+$color: #212529;
+
+@mixin font($fs,$lh){
+    font-size: $fs;
+    line-height: $lh;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+
+    p, a{
+        @include font(16px,140%);
+    }
+
+    .footer__text_uppercase {
+        text-transform: uppercase;
+    }
+
+    .footer__text {
+        margin-left: 280px;
+        margin-right: 256px;
+    }
+
+    .footer__link {
+        :first-child{
+            margin-right: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 1375px) and (min-width: 983px) {
+    footer {
+        flex-direction: column-reverse;
+
+        div {
+            :first-child {
+                text-align: center;
+            }
+
+            margin-bottom: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 982px) and (min-width: 344px) {
+    footer {
+        flex-direction: column-reverse;
+
+        div {
+            :first-child {
+                text-align: center;
+            }
+
+            margin-bottom: 24px;
+        }
+    }
+}
